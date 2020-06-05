@@ -5,7 +5,7 @@
 
 ## 2. 准备安装文件
 
-打开[这个链接](http://download.qt.io/official_releases/qt/5.9/5.9.9/)，下载qt-opensource-windows-x86-5.9.9.exe 。
+打开[这个链接](http://download.qt.io/official_releases/qt/5.9/5.9.9/)，下载qt-opensource-windows-x86-5.9.9.exe。
 
 注：如果在Linux下，下载qt-opensource-linux-x64-5.9.9.run文件。
 
