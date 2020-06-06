@@ -5,7 +5,7 @@
 
 ## 2. 准备安装文件
 
-打开[这个链接](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)，下载jdk-8u251-windows-x64.exe。
+打开[这个链接](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)，下载*jdk-8u251-windows-x64.exe*。
 
 ## 3. 安装
 
@@ -13,9 +13,10 @@
 
 ## 4. 配置
 
-- 建立系统环境变量`JAVA_HOME`，取值为`C:\Program Files\Java\jdk1.8.0_251`；
-- 修改系统环境变量`PATH`，加入`%JAVA_HOME%\bin`。
+- 建立系统环境变量`JAVA_HOME`，取值为 *C:\Program Files\Java\jdk1.8.0_251*；
+- 修改系统环境变量`PATH`，加入 *%JAVA_HOME%\bin*。
 
+注意：JDK安装完成后，会自动在`PATH`里面加入`C:\Program Files (x86)\Common Files\Oracle\Java\javapath`。应将 *%JAVA_HOME%\bin* 放到它的前面。
 
 ## 5. 测试
 
