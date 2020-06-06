@@ -61,6 +61,6 @@ flutter doctor
 - 描述：新建Flutter工程后，工具条中显示no devices。
 - 解决：首先要确保AVD Manager中存在虚拟机；如果仍有问题，重启Android Studio。
 
-## 7. 参考
+## 6. 参考
 
 - <https://flutter.cn/docs/get-started/install/windows>
