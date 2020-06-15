@@ -28,6 +28,13 @@ git clone -b stable git@github.com:flutter/flutter.git
 
 如果你想要在普通的Windows控制台中使用`flutter`命令，需要将*flutter\bin*目录的完整路径加入到`PATH`环境变量。
 
+在中国网络环境下使用 Flutter，建议设置以下环境变量：
+
+```bash
+export PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub
+export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
+```
+
 ## 4. 运行 flutter doctor
 
 在将 Path 变量更新后，打开一个新的控制台窗口，然后将下面的命令输入进去执行。如果它提示有任何的平台相关依赖，那么你就需要按照指示完成这些配置：
